@@ -1,0 +1,23 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "particles.js": "^2.0.0",
+    "popper": "^1.0.0",
+    "popper.js": "^1.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Lee Gladsden",
+  "license": "ISC"
+}
