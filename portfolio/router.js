@@ -10,13 +10,13 @@ http.createServer(function (req, res) {
 
 app.use(express.static(__dirname), router);
 
-const path = __dirname + '/views/';
+const path = __dirname;
 
 
 
 router.get('/',function(req, res){
-res.sendFile(path + 'index.html');
-});
+res.sendFile(__dirname + '/src/index.html');
+ });
 
 router.get('/projects.html',function(req, res){
 res.sendFile(path + 'projects.html');
